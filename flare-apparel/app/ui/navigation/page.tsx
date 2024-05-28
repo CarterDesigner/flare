@@ -11,6 +11,7 @@ import basketIcon from "../../../public/shopping-bag.svg";
 import searchIcon from "/public/mag-glass.svg";
 import { HamburgerBtn } from "../../scripts/dropbtn";
 import { SearchBarScript } from "../../scripts/searchBarBtn";
+import { CloseSearchBarBtnScript } from "../../scripts/closeSearchBarBtn";
 import SearchBar from "../search-bar/page";
 
 interface NavGroupProps {
@@ -42,9 +43,11 @@ const Navigation: React.FC<NavigationProps> = ({ top }) => {
     useEffect(() => {
         const cleanupHamburgerbtn = HamburgerBtn();
         const cleanupSearchBarBtn = SearchBarScript();
+        const cleanupCloseSearchBarBtn = CloseSearchBarBtnScript();
         return () => {
             if (cleanupHamburgerbtn) cleanupHamburgerbtn();
             if (cleanupSearchBarBtn) cleanupSearchBarBtn();
+            if (cleanupCloseSearchBarBtn) CloseSearchBarBtnScript();
         };
     }, []);
     return (
