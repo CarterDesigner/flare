@@ -36,7 +36,7 @@ function DropBtn() {
 }
 
 interface NavigationProps {
-    top: string | number;
+    top: string;
 }
 
 const Navigation: React.FC<NavigationProps> = ({ top }) => {
