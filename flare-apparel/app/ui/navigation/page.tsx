@@ -34,11 +34,11 @@ function DropBtn() {
     );
 }
 
-interface NavigationTopProp {
+interface NavigationProps {
     top: string | number;
 }
 
-const Navigation: React.FC<NavigationTopProp> = ({ top }) => {
+const Navigation: React.FC<NavigationProps> = ({ top }) => {
     useEffect(() => {
         const cleanupHamburgerbtn = HamburgerBtn();
         const cleanupSearchBarBtn = SearchBarScript();
