@@ -24,7 +24,3 @@ input::placeholder {
 html {
   background-color: var(--theme-color-3);
 }
-
-.navigation {
-  top: 50px;
-}
