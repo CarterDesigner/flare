@@ -1,0 +1,8 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+	<title>New Project</title>
+	<style>
+		.s0 { fill: #ffffff } 
+	</style>
+	<path id="Layer 1" class="s0" d="m193.2 0l6.8 6.8-193.2 193.2-6.8-6.8z"/>
+	<path id="Background" class="s0" d="m0 6.8l6.8-6.8 193.2 193.2-6.8 6.8z"/>
+</svg>

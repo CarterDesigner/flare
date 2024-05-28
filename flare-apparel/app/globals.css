@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --theme-color-1: #A30000;
+  --theme-color-2: #FF7700;
+  --theme-color-3: #fff;
+  --theme-color-4: #000;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+input::placeholder {
+  color: var(--theme-color-3);
+  opacity: .6;
+}
+
+html {
+  background-color: var(--theme-color-3);
+}
+
+.navigation {
+  top: 50px;
+}

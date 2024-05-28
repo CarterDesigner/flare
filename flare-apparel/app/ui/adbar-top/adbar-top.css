@@ -1,0 +1,4 @@
+.adbar {
+    background-color: var(--theme-color-1);
+    border-bottom: solid 1px black;
+}

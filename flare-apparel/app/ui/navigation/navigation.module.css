@@ -1,0 +1,7 @@
+.navigation {
+    background-color: var(--theme-color-2);
+    z-index: 5;
+}
+.navigationContainer {
+    border-bottom: solid 1px rgba(0,0,0,.4);
+}
