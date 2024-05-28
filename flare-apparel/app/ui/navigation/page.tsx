@@ -38,7 +38,7 @@ interface NavigationTopProp {
     top: string | number;
 }
 
-export default function Navigation({ top }: NavigationTopProp) {
+const Navigation: React.FC<NavigationTopProp> = ({ top }) => {
     useEffect(() => {
         const cleanupHamburgerbtn = HamburgerBtn();
         const cleanupSearchBarBtn = SearchBarScript();
@@ -75,3 +75,5 @@ export default function Navigation({ top }: NavigationTopProp) {
         </div>
     );
 }
+
+export default Navigation;
